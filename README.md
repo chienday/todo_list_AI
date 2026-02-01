@@ -37,11 +37,7 @@ Node.js 18+ (nếu chạy frontend local)
 Python 3.11+ (nếu chạy backend local)
 
 ⚡ Khởi chạy nhanh với Docker (Khuyến nghị)
-1️⃣ Sao chép file môi trường
-cp .env.example .env
-
-
-Cập nhật các biến môi trường trong file .env nếu cần (DB, AI key, v.v.)
+1️⃣ Tạo  file .env và cập nhật thông tin cần có trong file mẫu cp .env.example .env
 
 2️⃣ Khởi động toàn bộ hệ thống
 docker-compose up -d
